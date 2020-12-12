@@ -1,0 +1,10 @@
+# Travis CI build file.
+
+language: swift
+os: osx
+
+osx_image: xcode12.1
+
+script:
+  - swift build
+  - swift test
